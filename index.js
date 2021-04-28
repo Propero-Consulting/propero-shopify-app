@@ -10,7 +10,7 @@ const request = require('request-promise');
 const apiKey = process.env.SHOPIFY_API_KEY;
 const apiSecret = process.env.SHOPIFY_API_SECRET;
 const scopes = 'write_products';
-const forwardingAddress = "https://4de73ffd005c.ngrok.io";
+const forwardingAddress = "https://29f6d2d1728e.ngrok.io";
 
 app.get("/shopify", (req, res) => {
     const shop = req.query.shop;
